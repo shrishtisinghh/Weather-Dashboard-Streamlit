@@ -1,0 +1,15 @@
+--CREATE DATABASE weather_db;
+----USE weather_db;
+
+----CREATE TABLE weather_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    city VARCHAR(50),
+    temperature FLOAT,
+    feels_like FLOAT,
+    humidity INT,
+    condition_desc VARCHAR(50),
+    wind_speed FLOAT,
+    timestamp DATETIME
+);
+
+----SELECT * FROM weather_data;
